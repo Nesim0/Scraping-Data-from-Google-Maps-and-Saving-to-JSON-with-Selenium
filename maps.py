@@ -7,8 +7,8 @@ from selenium.common.exceptions import TimeoutException
 import time
 
 browser = webdriver.Chrome()
-
-browser.get("https://www.google.com/maps/search/dişçi")
+search = ""
+browser.get(f"https://www.google.com/maps/search/{search}")
 
 browser.fullscreen_window()
 
